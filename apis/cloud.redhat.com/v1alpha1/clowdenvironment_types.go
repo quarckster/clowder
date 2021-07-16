@@ -406,6 +406,9 @@ type ProvidersConfig struct {
 
 	// Use sidecar
 	AuthSidecar bool `json:"authSidecar,omitempty"`
+
+	// Deploy Mocked items
+	Mock bool `json:"mock,omitempty"`
 }
 
 // MinioStatus defines the status of a minio instance in local mode.
